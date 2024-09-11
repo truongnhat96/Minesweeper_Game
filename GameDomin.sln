@@ -7,12 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameDomin", "GameDomin\Game
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		DefaultBuild|Any CPU = DefaultBuild|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60CCF16-1439-46BB-B145-27E961C51C88}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{E60CCF16-1439-46BB-B145-27E961C51C88}.All|Any CPU.Build.0 = Release|Any CPU
 		{E60CCF16-1439-46BB-B145-27E961C51C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E60CCF16-1439-46BB-B145-27E961C51C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60CCF16-1439-46BB-B145-27E961C51C88}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60CCF16-1439-46BB-B145-27E961C51C88}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
 		{E60CCF16-1439-46BB-B145-27E961C51C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E60CCF16-1439-46BB-B145-27E961C51C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

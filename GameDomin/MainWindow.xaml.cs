@@ -171,12 +171,21 @@ namespace GameDomin
                 prgTime.IsIndeterminate = false;
                 MessageBox.Show($"Dẫm trúng mìn rồi  ಥ_ಥ\nĐiểm: {Point}", "Thất bại", MessageBoxButton.OK, MessageBoxImage.Error);
                 Window_Loaded(this, new RoutedEventArgs());
+                return;
             }
             else
             {
                 int x = Grid.GetRow(button);
                 int y = Grid.GetColumn(button);
                 Loang(x, y);
+            }
+
+            if (Point == 11250 - (BoomList.Count * 50))
+            {
+                timer.Stop();
+                prgTime.IsIndeterminate = false;
+                MessageBox.Show($"Chúc mừng bạn đã chiến thắng (≧▽≦)\nĐiểm: {Point}", "Thành công", MessageBoxButton.OK, MessageBoxImage.Information);
+                Window_Loaded(this, new RoutedEventArgs());
             }
         }
 

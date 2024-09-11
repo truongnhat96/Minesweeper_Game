@@ -47,7 +47,7 @@
             </StackPanel>
             <StackPanel Grid.Column="2">
                 <TextBlock FontSize="20" Width="200" Text="Điểm số" FontWeight="Bold"></TextBlock>
-                <TextBlock Width="130" FontWeight="Bold" Text="{Binding Point}" Foreground="Red" FontSize="35" Background="Black" Height="50"></TextBlock>
+                <TextBlock  Width="130" FontWeight="Bold" Text="{Binding Point}" Foreground="Red" FontSize="35" Background="Black" Height="50"></TextBlock>
             </StackPanel>
         </Grid>
         
