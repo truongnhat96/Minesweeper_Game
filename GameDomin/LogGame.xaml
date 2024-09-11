@@ -1,0 +1,22 @@
+﻿<Window x:Class="GameDomin.LogGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameDomin"
+        mc:Ignorable="d"
+        Title="Game Dò Mìn" Height="350" Width="500"
+        WindowStartupLocation="CenterScreen"
+        Background="DarkCyan" 
+        ResizeMode="NoResize"
+        Icon="D:\File DownLoads\unnamed.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image Width="500" Height="150" Source="D:\File DownLoads\cta.png" Stretch="Fill"></Image>
+        <Button x:Name="btnLog" Cursor="Hand" Click="btnLog_Click" Grid.Row="1" Width="150" FontSize="18" FontWeight="Bold" Foreground="Azure" Background="{StaticResource ButtonStyle}">Vào chơi</Button>
+        <Button Cursor="Hand" BorderThickness="0" Background="Transparent" Name="btnInfor" Click="btnInfor_Click" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Row="1" Width="NaN" Margin="10,107,427,0"></Button>
+    </Grid>
+</Window>
